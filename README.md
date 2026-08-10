@@ -17,6 +17,8 @@ secure JWT authentication, user screen authorization,
 dashboard analytics, master management, purchase order
 processing, GRN processing, and reporting.
 
+---
+
 ## 🏢 Project
 
 **CoreMatrix Technologies**
