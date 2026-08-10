@@ -1,0 +1,37 @@
+/* Hide normally */
+.print-only {
+  display: none;
+}
+
+.custom-header th {
+  background: linear-gradient(90deg, rgba(115, 136, 153, 1) 0%, rgba(115, 136, 153, 1) 38%, rgba(142, 159, 173, 1) 100%);
+  color: #000; /* Text color */
+}
+
+/* Show only during printing */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  .print-only,
+  .print-only * {
+    visibility: visible;
+  }
+
+  .print-only {
+    display: block !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    z-index: 9999;
+  }
+}
+
+@media print {
+  table {
+    page-break-after: always;
+  }
+}

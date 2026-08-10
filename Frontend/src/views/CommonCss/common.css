@@ -1,0 +1,69 @@
+body {
+    background: #f5f7fb;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.card-header {
+    font-size: 18px;
+}
+
+.table thead {
+    background: #0d6efd;
+    color: white;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.form-control,
+.form-select {
+    border-radius: 8px;
+}
+
+.btn {
+    border-radius: 8px;
+}
+
+/* .success-icon {
+    font-size: 70px;
+}
+
+.danger-icon {
+    font-size: 80px;
+} */
+ .success-icon {
+    width: 70px;
+    height: 70px;
+}
+
+.danger-icon {
+    width: 80px;
+    height: 80px;
+}
+
+.custom-table thead th {
+    background: linear-gradient(90deg, rgba(115, 136, 153, 1) 0%, rgba(115, 136, 153, 1) 38%, rgba(142, 159, 173, 1) 100%);
+    color: #000;
+    /* Text color */
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 600;
+    border: 1px solid #dee2e6;
+}
+
+.custom-table tbody td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.modal-content {
+    border-radius: 12px;
+}
+
+.modal-dialog {
+    max-width: 420px;
+}
