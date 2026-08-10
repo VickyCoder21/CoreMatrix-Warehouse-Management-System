@@ -1,24 +1,25 @@
 # 📦 CoreMatrix Warehouse Management System
 
-A modern **Warehouse Management System (WMS)** developed using **React.js**, **ASP.NET Core Web API**, and **SQL Server**.
-
-This project is designed to streamline warehouse operations including inventory management, supplier management, purchase order processing, user authentication, and role-based access control.
+A full-stack Warehouse Management System designed to manage
+warehouse operations, inventory, purchasing, suppliers,
+transporters, users, and screen-level authorization.
 
 ---
 
-# 🏢 Developed By
+## 🚀 Overview
+
+CoreMatrix Warehouse Management System is a full-stack web
+application developed using React.js, ASP.NET Core Web API,
+and Microsoft SQL Server.
+
+The system provides centralized warehouse management with
+secure JWT authentication, user screen authorization,
+dashboard analytics, master management, purchase order
+processing, GRN processing, and reporting.
+
+## 🏢 Project
 
 **CoreMatrix Technologies**
-
----
-
-# 🚀 Project Overview
-
-The CoreMatrix Warehouse Management System is a full-stack web application built to manage warehouse operations efficiently.
-
-It provides secure user authentication, dynamic user rights management, dashboard analytics, purchase order management, reporting, and master data management.
-
-The project follows a layered architecture and industry-standard practices using ASP.NET Core Web API and React.js.
 
 ---
 
