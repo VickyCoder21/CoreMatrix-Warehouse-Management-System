@@ -392,21 +392,38 @@ DarkTheme.png
 After adding screenshots, display them like this:
 
 ```md
-## Login
+### 🔐 Login
 
-![Login](Screenshots/Login.png)
+![Login Page](Screenshots/01-login.png)
 
-## Dashboard
+### 📊 Dashboard
 
-![Dashboard](Screenshots/Dashboard.png)
+![Dashboard](Screenshots/02-dashboard.png)
 
-## Employee Master
+### 👨‍💼 Employee Master
 
-![Employee](Screenshots/EmployeeMaster.png)
+![Employee Master](Screenshots/03-employee-master.png)
 
-## User Rights
+### 🏢 Supplier Master
 
-![User Rights](Screenshots/UserRights.png)
+![Supplier Master](Screenshots/04-supplier-master.png)
+
+### 📦 Purchase Order
+
+![Purchase Order](Screenshots/05-purchase-order.png)
+
+### 🚚 GRN & Label Printing
+
+![GRN Label Printing](Screenshots/06-grn-label-print.png)
+
+### 📋 Purchase Order Report
+
+![Purchase Order Report](Screenshots/07-purchase-order-report.png)
+
+### 🔐 User Rights
+
+![User Rights](Screenshots/08-user-rights.png)
+
 ```
 
 ---
@@ -433,12 +450,12 @@ npm run dev
 
 ---
 
+```md
 ## Backend
 
-```bash
-Open the ASP.NET Core Solution
+Open the ASP.NET Core solution in Visual Studio.
 
-Run the API
+Run the ASP.NET Core Web API project.
 ```
 
 ---
@@ -481,6 +498,6 @@ Chennai, Tamil Nadu, India
 
 # 📜 License
 
-This project was developed for **learning, portfolio, interview demonstration, and freelance purposes**.
+This project is shared for portfolio and demonstration purposes.
 
 © 2026 CoreMatrix Technologies. All Rights Reserved.

@@ -1,79 +1,38 @@
-# ==========================================
-# React / Vite
-# ==========================================
+# Visual Studio
+.vs/
+*.user
+*.suo
 
-Frontend/node_modules/
-Frontend/dist/
-Frontend/dist-ssr/
-Frontend/.vite/
+# .NET build files
+**/bin/
+**/obj/
 
-# Environment files
+# Visual Studio generated files
+*.dll
+*.exe
+*.pdb
+
+# Publish files
+PublishProfiles/
+*.pubxml
+*.publishproj
+
+# Node
+node_modules/
+dist/
+
+# Environment / secrets
 .env
 .env.*
 !.env.example
 
-# ==========================================
+# ASP.NET configuration secrets
+appsettings.Development.json
+appsettings.Production.json
+
 # Logs
-# ==========================================
-
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-# ==========================================
-# ASP.NET Core
-# ==========================================
-
-Backend/bin/
-Backend/obj/
-Backend/publish/
-
-# ==========================================
-# Visual Studio / VS Code
-# ==========================================
-
-.vs/
-.vscode/
-!.vscode/extensions.json
-
-.idea/
-
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-*.ntvs*
-*.njsproj
-
-# ==========================================
-# Environment / Local Configuration
-# ==========================================
-
-appsettings.Local.json
-appsettings.Development.Local.json
-
-# ==========================================
-# Database / Local SQL Server
-# ==========================================
-
-*.mdf
-*.ldf
-*.ndf
-
-# ==========================================
-# Operating System
-# ==========================================
-
+# OS files
 .DS_Store
 Thumbs.db
-Desktop.ini
-
-# ==========================================
-# Temporary / Swap Files
-# ==========================================
-
-*.swp
-*.swo
