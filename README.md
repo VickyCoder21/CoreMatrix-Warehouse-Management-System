@@ -1,21 +1,24 @@
 # 📦 CoreMatrix Warehouse Management System
 
-A full-stack Warehouse Management System designed to manage
-warehouse operations, inventory, purchasing, suppliers,
-transporters, users, and screen-level authorization.
+A full-stack Warehouse Management System designed to manage warehouse operations, inventory, purchasing, suppliers, transporters, users, and screen-level authorization.
 
 ---
 
 ## 🚀 Overview
 
-CoreMatrix Warehouse Management System is a full-stack web
-application developed using React.js, ASP.NET Core Web API,
-and Microsoft SQL Server.
+CoreMatrix Warehouse Management System is a full-stack web application developed using React.js, ASP.NET Core Web API, and Microsoft SQL Server.
 
-The system provides centralized warehouse management with
-secure JWT authentication, user screen authorization,
-dashboard analytics, master management, purchase order
-processing, GRN processing, and reporting.
+The system provides centralized warehouse management with:
+
+- JWT authentication
+- User and screen-level authorization
+- Dashboard analytics
+- Master data management
+- Purchase order processing
+- GRN processing
+- Label printing
+- Reporting and exports
+- Data validation
 
 ---
 
@@ -35,8 +38,6 @@ processing, GRN processing, and reporting.
 - Session Management
 - Logout
 
----
-
 ## 📊 Dashboard
 
 - Employee Count
@@ -47,8 +48,6 @@ processing, GRN processing, and reporting.
 - Purchase Order Statistics
 - Recent Purchase Orders
 
----
-
 ## 📁 Master Modules
 
 - Employee Master
@@ -57,43 +56,19 @@ processing, GRN processing, and reporting.
 - Item Master
 - Transporter Master
 
----
-
 ## 📦 Transaction Modules
 
 - Purchase Order Entry
-- Purchase Order Report
 - Goods Receipt (GRN)
 - Label Printing
-
----
+- Purchase Order Report
 
 ## 👥 User Management
 
-- User Rights
-- Screen Authorization
+- User Rights Management
+- Screen-Level Authorization
 - Dynamic Sidebar Menu
 - Role-Based Screen Access
-
----
-
-## 🔒 Security
-
-- JWT Authentication
-- API Authorization
-- Protected Controllers
-- Token Validation
-- Dynamic Screen Permissions
-
----
-
-## 🎨 UI Features
-
-- Responsive Design
-- Dashboard Cards
-- Professional Login Screen
-
----
 
 ## 📄 Reports
 
@@ -104,14 +79,12 @@ processing, GRN processing, and reporting.
 - Pagination
 - Filters
 
----
-
 ## ✅ Validation
 
 - Required Field Validation
 - Duplicate Validation
 - Excel Validation
-- Success/Error Popup Messages
+- Success/Error Messages
 
 ---
 
@@ -125,8 +98,6 @@ processing, GRN processing, and reporting.
 - React Router
 - Bootstrap
 
----
-
 ## Backend
 
 - ASP.NET Core Web API (.NET 8)
@@ -134,8 +105,6 @@ processing, GRN processing, and reporting.
 - ADO.NET
 - REST API
 - JWT Authentication
-
----
 
 ## Database
 
@@ -148,18 +117,18 @@ processing, GRN processing, and reporting.
 
 # 🏗 Project Architecture
 
-```
-React Frontend
-       │
-       │ Axios API
-       ▼
+```text
+React.js Frontend
+        │
+        │ Axios
+        ▼
 ASP.NET Core Web API
-       │
-       │ ADO.NET
-       ▼
-SQL Server Database
-       │
-       ▼
+        │
+        │ ADO.NET
+        ▼
+SQL Server
+        │
+        ▼
 Stored Procedures
 ```
 
@@ -169,7 +138,6 @@ Stored Procedures
 
 ```
 CoreMatrix-Warehouse-Management-System
-
 │
 ├── Frontend
 │   ├── Components
@@ -181,12 +149,13 @@ CoreMatrix-Warehouse-Management-System
 │   └── Utils
 │
 ├── Backend
-│   ├── Controllers
-│   ├── Models
-│   ├── Helpers
-│   ├── Data
-│   ├── Middleware
-│   └── Program.cs
+│   └── SmartWarehouse.API
+│       ├── Controllers
+│       ├── Models
+│       ├── Helpers
+│       ├── Data
+│       ├── Middleware
+│       └── Program.cs
 │
 ├── Database
 │   ├── Tables
@@ -205,20 +174,20 @@ CoreMatrix-Warehouse-Management-System
 
 ```
 User Login
-      │
-      ▼
+     │
+     ▼
 Login API
-      │
-      ▼
+     │
+     ▼
 Verify Username & Password
-      │
-      ▼
+     │
+     ▼
 Generate JWT Token
-      │
-      ▼
+     │
+     ▼
 Store JWT Token
-      │
-      ▼
+     │
+     ▼
 Access Protected APIs
 ```
 
@@ -228,30 +197,24 @@ Access Protected APIs
 
 ```
 Administrator
-
-      │
-
+     │
+     ▼
 Assign Screen Rights
-
-      │
-
-USERAUTHENTICATION Table
-
-      │
-
+     │
+     ▼
+USERAUTHENTICATION
+     │
+     ▼
 User Login
-
-      │
-
+     │
+     ▼
 Fetch User Rights
-
-      │
-
+     │
+     ▼
 Generate Sidebar
-
-      │
-
-Display Authorized Screens Only
+     │
+     ▼
+Display Authorized Screens
 ```
 
 ---
@@ -361,37 +324,9 @@ DELETE
 
 # 📸 Application Screenshots
 
-> Add screenshots inside the **Screenshots** folder.
-
-Example:
-
-```
-Screenshots
-
-Login.png
-
-Dashboard.png
-
-EmployeeMaster.png
-
-SupplierMaster.png
-
-ItemMaster.png
-
-TransporterMaster.png
-
-PurchaseOrder.png
-
-PurchaseOrderReport.png
-
-UserRights.png
-
-DarkTheme.png
-```
-
-After adding screenshots, display them like this:
-
 ```md
+# 📸 Application Screenshots
+
 ### 🔐 Login
 
 ![Login Page](Screenshots/01-login.png)
@@ -453,7 +388,7 @@ npm run dev
 ```md
 ## Backend
 
-Open the ASP.NET Core solution in Visual Studio.
+Open the ASP.NET Core Web API project in Visual Studio.
 
 Run the ASP.NET Core Web API project.
 ```
