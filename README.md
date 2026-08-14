@@ -324,9 +324,6 @@ DELETE
 
 # 📸 Application Screenshots
 
-```md
-# 📸 Application Screenshots
-
 ### 🔐 Login
 
 ![Login Page](Screenshots/01-login.png)
@@ -359,8 +356,6 @@ DELETE
 
 ![User Rights](Screenshots/08-user-rights.png)
 
-```
-
 ---
 
 # ⚙ Installation
@@ -385,13 +380,11 @@ npm run dev
 
 ---
 
-```md
 ## Backend
 
 Open the ASP.NET Core Web API project in Visual Studio.
 
 Run the ASP.NET Core Web API project.
-```
 
 ---
 
