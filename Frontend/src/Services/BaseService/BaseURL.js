@@ -2,7 +2,7 @@ import axios from "axios";
 import { getToken, logout } from "/src/utils/auth";
 
 const axiosInstance = axios.create({
-  baseURL: "https://localhost:7107",
+  baseURL: import.meta.env.VITE_API_URL,
   headers: {
     "Content-Type": "application/json",
   },
